@@ -1,0 +1,31 @@
+{
+    "name": "toannguyen/manage",
+    "authors": [
+        {
+            "name": "Mr.Tona",
+            "email": "nguyennguyen.vt88@gmail.com"
+        }
+    ],
+    "description": "Drop, resize image, etc.",
+    "type": "php",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Tonanguyen\\Manage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Toan Nguyen MP",
+            "email": "nguyennguyen.vt88@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonanguyen\\Manage\\ManageServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
